@@ -9,8 +9,8 @@ def RectPS(x1,y1,x2,y2,Result):
     Result['S'] = a*b
     return
 
-x1, x2 = int(input()), int(input())
-y1, y2 = int(input()), int(input())
+x1, x2 = int(input("введите 1 число:")), int(input("введите 2 число:"))
+y1, y2 = int(input("введите 3 число:")), int(input("введите 4 число:"))
 R = {'P' : None, 'S' : None}
 RectPS(x1,y1,x2,y2,R)
 print('P = ', R['P'])
