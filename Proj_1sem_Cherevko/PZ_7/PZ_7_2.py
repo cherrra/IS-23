@@ -1,8 +1,8 @@
 #вариант 24. даны строки S, S1, S2. заменить в строке S первое вхождение строки S1 на строку S2.
 
-s = input("s =")
-s1 = input("s1 =")
-s2 = input("s2 = ")
+S = input("S =")
+S1 = input("S1 =")
+S2 = input("S2 = ")
 
-print(s+s1)
-print(s+s2)
+print(S+S1)
+print(S+S2)
