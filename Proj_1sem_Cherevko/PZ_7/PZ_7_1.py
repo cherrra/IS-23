@@ -3,9 +3,9 @@
 
 s = str(input("Введите строку, состоящую из русских заглавных букв:"))
 d = s.split(" ")
-f = 0
+k = 0
 for i in range(len(d)):
     if d[i].count("А") == 3:
-        f += 1
+        k += 1
         print(d[i])
-print(f)
+print("количество слов с тремя буквами А:", k)
