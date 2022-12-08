@@ -12,4 +12,4 @@ try:
     print('Равны ли перечни товаров:', magnit == pyterochka)
 
 except:
-    print('ошибка')
+    print('Ошибка')
