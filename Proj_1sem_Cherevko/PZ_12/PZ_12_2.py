@@ -6,3 +6,4 @@ vse_sogl = ['б', 'в', 'г', 'д', 'ж', 'з', 'й', 'к', 'л', 'м', 'н', '�
 sogl = [k.upper() for i in range(len(lst)) for k in lst[i] if k.lower() in vse_sogl]
 print(sogl)
 
+
