@@ -8,4 +8,3 @@ football = [i for i in lst if i < 190]
 print(lst)
 print('Кол-во юношей, попавших в баскетбольную команду:', len(basket))
 print('Кол-во юношей, попавших в футбольную команду:', len(football))
-
